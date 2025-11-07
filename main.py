@@ -2,7 +2,7 @@ from flask import Flask, render_template, request, jsonify
 import cohere
 
 app = Flask(__name__)
-co = cohere.Client('avzdjjvHdi0TXVKUBzPfRFrzy0WvNw8HuKGkVtLc')  # Replace with your actual API key
+co = cohere.Client('[REDACTED_BY_KEYGUARDIAN]')  # Replace with your actual API key
 
 @app.route('/')
 def index():
