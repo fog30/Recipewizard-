@@ -33,3 +33,7 @@
 
 ---
 
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/fog30/RecipeWizard.git
+   cd RecipeWizard
